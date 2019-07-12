@@ -1,5 +1,6 @@
-require_relative '../src/lambda_entry'
 # frozen_string_literal: true
+
+require_relative '../src/lambda_entry'
 
 RSpec.describe 'lambda_entry' do
   describe '.call' do
