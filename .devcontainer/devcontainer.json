@@ -1,0 +1,14 @@
+{
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "lambda",
+  "workspaceFolder": "/app",
+  "extensions": [
+    "kaiwood.endwise",
+    "noku.rails-run-spec-vscode",
+    "castwide.solargraph",
+    "misogi.ruby-rubocop"
+  ],
+  "settings": {
+    "solargraph.useBundler": true
+  }
+}
