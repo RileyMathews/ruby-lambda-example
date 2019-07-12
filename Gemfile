@@ -6,3 +6,7 @@ group :development do
   gem 'rubocop'
   gem 'solargraph'
 end
+
+group :test do
+  gem 'rspec'
+end
