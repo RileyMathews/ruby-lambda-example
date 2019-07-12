@@ -14,6 +14,7 @@ GEM
     parser (2.6.3.0)
       ast (~> 2.4.0)
     rainbow (3.0.0)
+    rake (12.3.2)
     reverse_markdown (1.1.0)
       nokogiri
     rspec (3.8.0)
@@ -58,6 +59,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rake
   rspec
   rubocop
   solargraph
