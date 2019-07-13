@@ -10,4 +10,12 @@ RSpec.describe 'lambda_entry' do
       expect(JSON.parse(actual)).to eq('foo' => 'bar')
     end
   end
+
+  describe 'lambda_mine' do
+    it 'returns the expected string' do
+      actual = LambdaMine::Handler.process(nil, nil)
+
+      expect(actual).to eq('hello from lambda mine!')
+    end
+  end
 end

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'json'
+require 'lambda_mine'
 
 def call(event, _context)
   event.to_json
