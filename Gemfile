@@ -8,8 +8,5 @@ group :development do
   gem 'rake'
   gem 'rubocop'
   gem 'solargraph'
-end
-
-group :test do
   gem 'rspec'
 end
