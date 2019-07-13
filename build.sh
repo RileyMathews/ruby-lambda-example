@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-bundle install --deployment --without development
+# bundle install --deployment --without development 
 cd ./src
-zip -r ../access-control-one-time-password-lambda.zip .
+zip -r ../lambda-example.zip .
 cd ..
-zip -ur access-control-one-time-password-lambda.zip ./vendor
+zip -ur lambda-example.zip ./vendor

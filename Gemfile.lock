@@ -7,7 +7,7 @@ GEM
     htmlentities (4.3.4)
     jaro_winkler (1.5.3)
     kramdown (1.17.0)
-    lambda_mine (0.0.3.pre)
+    lambda_mine (0.0.5.pre)
     mini_portile2 (2.4.0)
     nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
